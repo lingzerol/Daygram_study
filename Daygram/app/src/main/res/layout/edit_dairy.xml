@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPaper"
+    android:gravity="center_horizontal">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="25dip"/>
+    <com.example.zero.daygram.RegularTextView
+        android:id="@+id/dairy_edit_date"
+        android:gravity="center"
+        android:text="Saturday"
+        android:textSize="30dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dip"
+        android:orientation="horizontal"
+        android:gravity="center">
+    <View
+        android:background="@android:color/black"
+        android:layout_width="230dip"
+        android:layout_height="1dip"/>
+    </LinearLayout>
+    <ScrollView
+        android:id="@+id/dairy_edit_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1">
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/dairy_edit_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+</LinearLayout>

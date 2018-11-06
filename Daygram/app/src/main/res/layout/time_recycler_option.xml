@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="60dip"
+    android:layout_height="50dip">
+    <TextView
+        android:id="@+id/daygram_recycler_option"
+        android:background="@drawable/date_circle"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:gravity="center"/>
+</android.support.constraint.ConstraintLayout>
