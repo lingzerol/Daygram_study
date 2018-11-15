@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
                     }else{
                         height=0;
                     }
-                }else if(dis>0&&height<HEIGHT){
+                }else if(dis>0&&height<HEIGHT&&dairy_list.getFirstVisiblePosition()==0){
                     if(height+dis<=HEIGHT){
                         height+=dis;
                     }else{
